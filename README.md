@@ -14,3 +14,7 @@ import this module<br>
 from email.message import EmailMessage
 
 ```
+
+## SMTP library
+before sending email to the user make sure you enabled <kbd>2-step verification</kbd> with your email<br>
+then generate <kbd> App Passwords</kbd>
