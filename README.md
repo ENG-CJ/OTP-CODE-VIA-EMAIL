@@ -30,3 +30,40 @@ server.login('yourEmail@gmail.com',password='your app passwords')  #This Passwor
 server.send_message(msg=message)
 ```
 
+## Full Snippet Code 👇
+
+```python
+# First Import the libraries
+from email.message import EmailMessage  # this allows you to compose email components
+import smptplib
+import random
+
+otpRandom=random.randint(999,10000)  # This randomly generates the code with four degits
+
+# function that sends the code into the user
+
+def otpMail(subject,content,From,To):  # Four Parameters email components
+    message=EmailMessage() 
+    message['Subject]=subject
+    message.set_content(content)
+    message['From]=From
+    message['To]=To
+    
+    # server 
+    server=smtp.SMTP_SSL('smtp.gmail.com',465)  # this is the host (gmail) and its port
+    server.login('yourEmail@gmai.com',password='yourPassword generator')
+    server.send_message(message)
+    
+    server.quit()   # Close The Connection
+
+# Callinng
+otpMail('CJTECH.org','Your OTP is {otpRandom}','from@gmail.com','To@gmail.com')
+
+# the email will send
+    
+   
+
+```
+
+<br>
+You can dOWNLOAD tHE fILE TOO
