@@ -8,3 +8,9 @@ to install write this command below <br>
 
 ## Email Library 
 <kbd>EmailMessage()</kbd> This library allows you to compose all email components like subjects,message<br>
+import this module<br>
+
+```python
+from email.message import EmailMessage
+
+```
