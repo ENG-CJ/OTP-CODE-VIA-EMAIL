@@ -5,3 +5,6 @@ This OTP(One Time Password) Verification Code Will Send User's Email Via smtplib
 if You dont have this library in your system download the site of python packages using command pip <br>
 to install write this command below <br>
 > pip install smptplib
+
+## Email Library 
+<kbd>EmailMessage()</kdb> This library allows you to compose all email components like subjects,message<br>
