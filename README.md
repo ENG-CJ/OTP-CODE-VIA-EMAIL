@@ -7,4 +7,5 @@ to install write this command below <br>
 > pip install smptplib
 
 ## Email Library 
-<kbd>EmailMessage()</kdb> This library allows you to compose all email components like subjects,message<br>
+<kbd>EmailMessage()</kdb> <br>
+This library allows you to compose all email components like subjects,message<br>
